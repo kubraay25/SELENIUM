@@ -6,7 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 
     public class C02_DriverMethods {
         public static void main(String[] args) {
-            System.setProperty("edgeDriver","src/resources/driver/msedgedriver.exe");
+            System.setProperty("edgeDriver","src/resources/drivers/chromedriver.exe");
             WebDriver driver = new EdgeDriver();
             driver.get("https://www.amazon.com");
             //Sayfa başlığını konsola yazdırınız
@@ -19,7 +19,9 @@ import org.openqa.selenium.edge.EdgeDriver;
             System.out.println("Sayfa Başlığı : "+driver.getTitle());
             System.out.println("Sayfa Url'i : "+driver.getCurrentUrl());
             //Sayfanın windowHandle değerini yazdırınız
+            //bir diger sayfaya tekrardan donmek icin kullanirim
             System.out.println(driver.getWindowHandle());
+
 
         }
     }
