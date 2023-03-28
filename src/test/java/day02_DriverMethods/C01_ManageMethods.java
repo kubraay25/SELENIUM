@@ -37,14 +37,13 @@ public class C01_ManageMethods {
            driver.manage( ).timeouts( ).implicitlyWait(Duration.ofSeconds(10));
            Istenen sayfa acilincaya kadar maximum bekleme suresini belirtir
 
-           driver.close( ); sadece calisilan browser'i kapatir
-           driver.quit( );  acik olan tum browser'lari kapatir
+           driver.close( ); sadece calisilan browser'i kapatir(acik olan bir sekme)
+           driver.quit( );  acik olan tum browser'lari kapatir(acik olan tum sekmeleri kapatir)
 
          */
 
         driver.manage().window().setPosition(new Point(50,50));//istediğimiz konuma getirir
         driver.manage().window().setSize(new Dimension(600,600));//istediğimiz size a getirir
-
 
 
 
