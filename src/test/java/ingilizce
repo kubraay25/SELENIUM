@@ -1,8 +1,8 @@
 expected--> beklenen
 result-->
 actual--> gercek
-passed-->
-fail-->
+passed--> basarılı
+fail--> basarısız
 description-->
 subject-->
 functional-->
@@ -24,12 +24,10 @@ position-->
 implicitly-->
 wait-->
 quit-->
-passed-->
-failled-->
-actual-->
 inspect-->
 locators-->
 absolute -->
 span -->
+timeouts -->
 
 
