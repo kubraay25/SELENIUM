@@ -33,7 +33,7 @@ public class C01_Driver {
  options= new ChromeOptions();
  options.addArguments("--remote-allow-origins=*");
  driver = new ChromeDriver(options);
- driver.get("https://amazon.com");
+// driver.get("https://amazon.com");
 
  /* driver.get(String Url): --> String olarak girilen Url'e gider
     driver.getTitle(); --> içinde olunan sayfanin basligini String olarak getirir

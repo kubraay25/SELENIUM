@@ -34,5 +34,11 @@ public class C01_findElements {
         List<WebElement> linklerListesi=driver.findElements(By.tagName("a"));
         System.out.println("Linklerin Sayisi = "+linklerListesi.size());
         //Linkleri yazdiralim
+
+        for (WebElement w:linklerListesi) {
+            System.out.println(w.getText());
+        }
+        driver.close();
     }
+
 }
