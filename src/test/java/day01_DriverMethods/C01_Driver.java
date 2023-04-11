@@ -17,22 +17,23 @@ public class C01_Driver {
 
     static ChromeOptions options;
     static WebDriver driver;
+
     public static void main(String[] args) {
 
- //parantezin icini "chromedriver.exe"den copy-path yaptik
- System.setProperty("edgeDriver","src/resources/driver/msedgedriver.exe");
- //System.setProperty java uygulamalarında sistem özelliklerini ayarlamak için kullanılır
- //Bu method ile class'ımıza webdriver'in fiziki yolunu belirtiriz
- //Key, value olarak önce isim sonra driver'imizin yolunu belirtiriz
+        //parantezin icini "chromedriver.exe"den copy-path yaptik
+        //System.setProperty("edgeDriver","src/resources/driver/msedgedriver.exe");
+        //System.setProperty java uygulamalarında sistem özelliklerini ayarlamak için kullanılır
+        //Bu method ile class'ımıza webdriver'in fiziki yolunu belirtiriz
+        //Key, value olarak önce isim sonra driver'imizin yolunu belirtiriz
 
- System.out.println(System.getProperty("edgeDriver"));
- //getProperty methodu ile "Key" degerini yazdim "value"ya ulaşabilirim
- // bana yukardaki "src" kismini verecek
+        //System.out.println(System.getProperty("edgeDriver"));
+        //getProperty methodu ile "Key" degerini yazdim "value"ya ulaşabilirim
+        // bana yukardaki "src" kismini verecek
 
- //eger chrome kullanavaksam asagidaki yapiyi olusturmam gerekir
- options= new ChromeOptions();
- options.addArguments("--remote-allow-origins=*");
- driver = new ChromeDriver(options);
+        //eger chrome kullanacaksam asagidaki yapiyi olusturmam gerekir
+        options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        driver = new ChromeDriver(options);
 // driver.get("https://amazon.com");
 
  /* driver.get(String Url): --> String olarak girilen Url'e gider
@@ -43,13 +44,11 @@ public class C01_Driver {
   */
 
 
- WebDriver driver = new EdgeDriver();//Boş bir browser açar, yani alttakileri yoruma alip gorebilirsin
- driver.get("https://techproeducation.com");//get() methodu ile adresini belittiğimiz sayfaya gideriz
- System.out.println("Sayfa Başlığı = "+driver.getTitle()); // içinde bulunduğumuz sayfanın başlığını verir
- System.out.println("Sayfa Url'i = "+driver.getCurrentUrl()); //içinde bulunduğumuz sayfanın url'i verir
- //System.out.println(driver.getPageSource());//içinde bulunduğumuz sayfanın html kaynak kodlarını verir
-
-
+        WebDriver driver = new ChromeDriver();//Boş bir browser açar, yani alttakileri yoruma alip gorebilirsin
+        driver.get("https://techproeducation.com");//get() methodu ile adresini belittiğimiz sayfaya gideriz
+        System.out.println("Sayfa Başlığı = " + driver.getTitle()); // içinde bulunduğumuz sayfanın başlığını verir
+        System.out.println("Sayfa Url'i = " + driver.getCurrentUrl()); //içinde bulunduğumuz sayfanın url'i verir
+        //System.out.println(driver.getPageSource());//içinde bulunduğumuz sayfanın html kaynak kodlarını verir
 
 
     }

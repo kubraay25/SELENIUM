@@ -1,0 +1,26 @@
+
+
+JIRA'nın açılımı "Java-based Issue and Project Tracking System"dir.
+
+XRAY'nin açılımı "eXtensible Testing Platform for Reporting And Integration"dir.
+
+ Jira bir proje yönetim yazılımıdır ve genellikle yazılım geliştirme
+ projelerinde kullanılır. Jira, takım üyelerinin işlerini planlamalarına,
+ takip etmelerine, işbirliği yapmalarına ve raporlamalarına olanak tanır.
+ Jira, projelerin bir takım üyesi tarafından oluşturulması, atılması,
+ önceliğinin belirlenmesi, ilerlemesinin takip edilmesi, sorunların çözülmesi ve
+ sonlandırılması gibi birçok işlevi içerir. Jira'nın temelinde, proje ve
+ görevlerin yönetildiği bir gösterge tablosu (dashboard) ve ayrıntılı bir
+ takım üyesi görünümü (task view) bulunur.
+
+Xray ise, Jira'da yazılım testleri yapmak için kullanılan bir eklentidir.
+Xray, Jira ile birlikte çalışır ve yazılım testlerinin planlanması,
+yürütülmesi ve raporlanması için bir dizi özellik sağlar. Xray, yazılım
+testlerinin yapısal bir şekilde organize edilmesine, test senaryolarının ve
+test durumlarının yönetilmesine, test sonuçlarının izlenmesine ve
+raporlanmasına olanak tanır. Bu şekilde, Jira ve Xray birlikte kullanılarak,
+yazılım geliştirme projelerinin test aşaması daha verimli ve etkili bir
+şekilde yönetilebilir.
+
+
+
